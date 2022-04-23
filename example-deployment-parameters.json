@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "storageAccountName": {
+        "value": "stvm<storage-account-name>"
+      },
+      "storageAccountSku": {
+        "value": "Standard_LRS"
+      },
+      "applicationInsightsName": {
+          "value": "appi-<application-insights-name>"
+      },
+      "planName": {
+          "value": "plan-<plan-name>"
+      },
+      "planOS": {
+          "value": "Linux"
+      },
+      "functionAppName": {
+          "value": "func-<plan-name>"
+      },
+      "functionAppRuntime": {
+          "value": "python"
+      },
+      "keyVaultName": {
+          "value": "kv-<key-vault-name>"
+      },
+      "keyVaultSku": {
+          "value": "standard"
+      },
+      "databaseConnectionString": {
+          "value": ""
+      }
+    }
+  }
