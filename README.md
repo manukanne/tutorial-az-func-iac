@@ -15,6 +15,8 @@ The project provides the following Bicep templates:
 
 The individual resources can be found under the [bicep/templates](bicep/templates/) folder, these are all linked and deployed from the [main.bicep](bicep/main.bicep) file.
 
+For more detailed information, please checkout my [blog post](https://dev.to/manukanne/azure-infrastructure-as-code-deploy-an-azure-function-using-bicep-1i04) :smiley:
+
 ![Azure Function Resources Overview](.img/azure-function-overview.png)
 
 ## Getting Started
