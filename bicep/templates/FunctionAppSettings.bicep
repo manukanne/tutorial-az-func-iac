@@ -25,7 +25,7 @@ param databaseConnectionString string
 var function_extension_version = '~4'
 var databaseConnectionStringKeyVaultRef = '@Microsoft.KeyVault(SecretUri=${databaseConnectionString})'
 
-resource functionAppProdSettings 'Microsoft.Web/sites/config@2021-03-01' = {
+resource functionAppSettings 'Microsoft.Web/sites/config@2021-03-01' = {
   name: '${functionAppName}/appsettings'
   properties: {
     AzureWebJobsStorage: storageAccountConnectionString
